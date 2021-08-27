@@ -1,14 +1,16 @@
-import React, { Fragment } from "react";
+import { Fragment } from "react";
 
-import { Header } from "./components/Header/Header";
+import { Header } from "../src/components/Header/Header";
+import { NewsList } from "../src/components/NewsList/NewsList";
+ 
 import './App.css';
 
-function App() {
-  return (
-    <Fragment>
-      <Header />
-    </Fragment>
-  );
+const App = () => {
+    return (
+        <Fragment>
+            <Header />
+            <NewsList />
+        </Fragment>
+    )
 }
-
-export default App;
+export  { App }

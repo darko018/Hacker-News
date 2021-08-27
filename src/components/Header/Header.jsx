@@ -1,18 +1,14 @@
-import React, { Component } from "react";
+import React from "react";
+
 import "./Header.css"
 
+const Header = () => {
 
-
-class Header extends Component {
-  render() {
     return (
-      <nav className="navbar bg-danger navbar-dark">
-        <div className="container-fluid">
-          <span className="navbar-brand mb-0 h1">Hacker News</span>
-        </div>
-      </nav>
-    );
-  }
+        <nav>
+            <h1>Hacker News</h1>
+        </nav>
+    )
 }
 
-export { Header }
+export  { Header }
