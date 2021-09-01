@@ -4,5 +4,5 @@ export const getID = () => {
 
     return fetch(endpoint)
     .then(response => response.json())
-    .then(id => id.slice('0', '10'));
+    .then(id => id.slice(0, 10));
 }
